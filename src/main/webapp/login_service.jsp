@@ -22,5 +22,5 @@
 		msg = "DB오류!";
 	}
 	System.out.println(msg);
-	
+	response.sendRedirect("login.jsp");
 %>
